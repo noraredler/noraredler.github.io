@@ -29,13 +29,13 @@ header {
 }
 
 .friskies header {
-    background-image: url(../assets/friskies.png);
+    background-image: url(../assets/friskies.jpg);
 }
 .totalcar header {
     background-image: url(../assets/totalcar/TC_0666.jpg);
 }
 .personal header {
-    background-image: url(../assets/personal.png);
+    background-image: url(../assets/personal.jpg);
 }
 .visuals {
     overflow:hidden;
