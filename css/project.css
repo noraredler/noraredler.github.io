@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -136,4 +137,144 @@ footer .navbar li a {
 
 footer .navbar li a:hover {
     text-decoration: line-through;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    color: #fff;
+    font-family: 'AzoSansUber';
+    
+}
+
+.sio header {
+    background-image: url(../assets/sio.jpg);
+}
+
+.oreo header {
+    background-image: url(../assets/oreo.jpg);
+}
+
+.lazuran header {
+    background-image: url(../assets/lazuran.jpg);
+}
+
+.friskies header {
+    background-image: url(../assets/friskies.png);
+}
+.totalcar header {
+    background-image: url(../assets/totalcar/TC_0666.jpg);
+}
+.personal header {
+    background-image: url(../assets/personal.png);
+}
+.visuals {
+    overflow:hidden;
+}
+.landscape {
+    display:flex;
+    width:100%;
+}
+.landscape img {
+    width:auto; 
+    margin-left:20px;
+}
+.landscape img:first-child {
+    margin-left:0;
+}
+
+.commercials h1 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: smaller;
+    text-transform:uppercase;
+}
+em {
+    font-style:normal;
+    font-family:'AzoSansUber';
+}
+p {
+    line-height:1.5;
+}
+p br {
+    margin-bottom:10px;
+}
+header h1 {
+    font-size: 100px;
+    text-align: center;
+    line-height: 50vh;
+}
+h2 {
+    font-size:1em;
+    line-height:4em;
+}
+video, img {
+    display:block;
+    margin-bottom:20px;
+    width:100%;
+}
+main {
+    padding: 30px;
+    text-align: center;
+    width: 883px;
+    margin:0 auto;
+}
+main img {
+    width:883px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+iframe {
+    width:883px;
+    height:551px;
+}
+
+footer .navbar {
+    text-align:center;
+    list-style: none;
+    margin:16px;
+}
+
+footer .navbar li {
+    display: inline-block;
+}
+
+footer .navbar li a {
+    display: block;
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+
+footer .navbar li a:hover {
+    text-decoration: line-through;
+>>>>>>> 1a2e043519453a6d180b41a2c482e2621c4f45bd
 }
