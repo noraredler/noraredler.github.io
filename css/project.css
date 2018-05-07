@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 header {
     background-size: cover;
     background-position: bottom;
@@ -16,7 +14,6 @@ header {
     font-family: 'AzoSansUber';
     
 }
-
 .sio header {
     background-image: url(../assets/sio.jpg);
 }
